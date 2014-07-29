@@ -14,13 +14,14 @@
 		2C5B2AF71987F3EC004816B3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C5B2AF61987F3EC004816B3 /* main.m */; };
 		2C5B2AFB1987F3EC004816B3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C5B2AFA1987F3EC004816B3 /* AppDelegate.m */; };
 		2C5B2AFE1987F3EC004816B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C5B2AFC1987F3EC004816B3 /* Main.storyboard */; };
-		2C5B2B011987F3EC004816B3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C5B2B001987F3EC004816B3 /* ViewController.m */; };
+		2C5B2B011987F3EC004816B3 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C5B2B001987F3EC004816B3 /* RootViewController.m */; };
 		2C5B2B031987F3EC004816B3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C5B2B021987F3EC004816B3 /* Images.xcassets */; };
 		2C5B2B0A1987F3EC004816B3 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C5B2B091987F3EC004816B3 /* XCTest.framework */; };
 		2C5B2B0B1987F3EC004816B3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C5B2AEA1987F3EB004816B3 /* Foundation.framework */; };
 		2C5B2B0C1987F3EC004816B3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C5B2AEE1987F3EC004816B3 /* UIKit.framework */; };
 		2C5B2B141987F3EC004816B3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2C5B2B121987F3EC004816B3 /* InfoPlist.strings */; };
 		2C5B2B161987F3EC004816B3 /* DragonFashionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C5B2B151987F3EC004816B3 /* DragonFashionTests.m */; };
+		2C5B2B211987FEAC004816B3 /* Dragon.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C5B2B201987FEAC004816B3 /* Dragon.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +46,16 @@
 		2C5B2AF91987F3EC004816B3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2C5B2AFA1987F3EC004816B3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		2C5B2AFD1987F3EC004816B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		2C5B2AFF1987F3EC004816B3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		2C5B2B001987F3EC004816B3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2C5B2AFF1987F3EC004816B3 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		2C5B2B001987F3EC004816B3 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		2C5B2B021987F3EC004816B3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		2C5B2B081987F3EC004816B3 /* DragonFashionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DragonFashionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C5B2B091987F3EC004816B3 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		2C5B2B111987F3EC004816B3 /* DragonFashionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DragonFashionTests-Info.plist"; sourceTree = "<group>"; };
 		2C5B2B131987F3EC004816B3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2C5B2B151987F3EC004816B3 /* DragonFashionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DragonFashionTests.m; sourceTree = "<group>"; };
+		2C5B2B1F1987FEAC004816B3 /* Dragon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dragon.h; sourceTree = "<group>"; };
+		2C5B2B201987FEAC004816B3 /* Dragon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dragon.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +118,10 @@
 				2C5B2AF91987F3EC004816B3 /* AppDelegate.h */,
 				2C5B2AFA1987F3EC004816B3 /* AppDelegate.m */,
 				2C5B2AFC1987F3EC004816B3 /* Main.storyboard */,
-				2C5B2AFF1987F3EC004816B3 /* ViewController.h */,
-				2C5B2B001987F3EC004816B3 /* ViewController.m */,
+				2C5B2AFF1987F3EC004816B3 /* RootViewController.h */,
+				2C5B2B1F1987FEAC004816B3 /* Dragon.h */,
+				2C5B2B201987FEAC004816B3 /* Dragon.m */,
+				2C5B2B001987F3EC004816B3 /* RootViewController.m */,
 				2C5B2B021987F3EC004816B3 /* Images.xcassets */,
 				2C5B2AF11987F3EC004816B3 /* Supporting Files */,
 			);
@@ -249,8 +254,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C5B2B011987F3EC004816B3 /* ViewController.m in Sources */,
+				2C5B2B011987F3EC004816B3 /* RootViewController.m in Sources */,
 				2C5B2AFB1987F3EC004816B3 /* AppDelegate.m in Sources */,
+				2C5B2B211987FEAC004816B3 /* Dragon.m in Sources */,
 				2C5B2AF71987F3EC004816B3 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
